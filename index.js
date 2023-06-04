@@ -7,8 +7,8 @@ const express = require('express');
 
 const path = require('path');
 const mongoose = require('mongoose');
-
-// dotenv.config({path:'./config.env'});
+// require('dotenv').config({path: __dirname + './.env'})
+// // dotenv.config({path:'./.env'});
 const app = express();
 
 
